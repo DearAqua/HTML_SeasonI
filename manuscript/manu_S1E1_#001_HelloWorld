@@ -1,0 +1,19 @@
+<!doctype html>
+<!-- doctype 指示 web 浏览器关于页面使用哪个 HTML 版本进行编写的指令 -->
+<html>
+<!-- html标签 告知浏览器文档 开始点 -->
+	<head>
+	<!-- head标签 定义文档的头部 -->
+		<title>#001_HelloWorld</title>
+		<!-- title是编辑网页标题的标签 -->
+		<meta charset="utf-8"/>	
+		<!-- meta是元素提供元信息给有关页面的标签 -->
+	</head>
+
+	<body>
+	<!-- body标签 定义文档的主体 -->
+		<p>HelloWorld</p>
+		<!-- p是定义段落的标签 -->
+	</body>
+</html>
+<!-- /html标签 告知浏览器文档 结束点 -->
