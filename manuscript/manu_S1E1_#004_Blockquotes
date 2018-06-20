@@ -1,0 +1,23 @@
+<!doctype html>
+<!-- doctype 指示 web 浏览器关于页面使用哪个 HTML 版本进行编写的指令 -->
+<html>
+<!-- html标签 告知浏览器文档 开始点 -->
+	<head>
+	<!-- head标签 定义文档的头部 -->
+		<title>#004_Blockquotes</title>
+		<meta charset="utf-8"/>		
+	</head>
+
+	<body>
+	<!-- body标签 定义文档的主体 -->	
+		<p> 正常的段落 </p>
+		<!-- 利用正常段落衬托被引用的段落 -->	
+		<blockquote>
+        	<p>
+         		"被引用的段落"
+        	</p>
+      	</blockquote>
+      	<!-- blockquote标签 将被引用的内容包裹起来 -->	
+      	<p> 正常的段落 </p>
+     </body>
+</html>
