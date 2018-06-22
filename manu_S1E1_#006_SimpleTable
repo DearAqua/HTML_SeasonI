@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+		<title>#006_SimpleTable</title>
+		<meta charset="utf-8"/>		
+	</head>
+
+	<body>
+		<p>这句话会在表格的上一行</p>
+		<table border="1">
+  			<tbody>
+    				<tr>
+      					<td><font size="2">用table标签制作表格</font></td>
+      					<td><font size="2">在table标签下用属性border设置边框</font></td>
+      					<td><font size="2">调用tbody标签</font></td>
+    				</tr>
+
+    				<tr>
+      					<td><font size="2">用td标签设置格子</font></td>
+      					<td><font size="2">格子会根据内容的长度，自动调节</font></td>
+      					<td><font size="2">在font标签下用属性size设置字体大小</font></td>
+   					</tr>
+
+    				<tr>
+      					<td bgcolor="#cccccc"><font size="2">在td标签下用属性bgcolor设置格子颜色</font></td>
+      					<td bgcolor="#cccccc"><font size="2">故意在这行代码后面打少一行</font></td> 
+ 				
+    				</tr>
+
+    				<tr>
+      					<td><font size="2">下一行只写格式不打内容</font></td>
+     					<td bgcolor="#cccccc"><font size="2"></font></td>
+      					<td bgcolor="#cccccc">试下不用font标签会怎样</td>
+   				 	</tr>
+
+           			<tr>
+                		<td><font size="2"></font>这是font标签完整的字</font></td>
+                		<td><font size="2"></font>这是没有font标签关闭的字</td>
+                		<td bgcolor="#b5c4b1"><font size="2"></font>这是font标签完整的字</font></td>
+           			</tr>
+
+           			<tr>
+                		<td bgcolor="#8696a7"><font size="2">莫兰迪色系8696a7</font></td>
+                		<td><font size="2"></font>交叉颜色</font></td>
+                		<td bgcolor="#e0cdcf"><font size="2">莫兰迪色系e0cdcf</font></td>
+           			</tr>
+			 </tbody>
+		</table>
+
+		<p>做一个格式整齐的表格</p>
+		<table border="1">
+  			<tbody>
+    				<tr>
+      					<td bgcolor="#cccccc"><font size="2">编制称呼</font></td>
+      					<td bgcolor="#cccccc"><font size="2">编制人数</font></td>
+      					<td bgcolor="#cccccc"><font size="2">编制长官</font></td>
+    				</tr>
+
+    				<tr>
+      					<td bgcolor="#e0cdcf"><font size="2">军</font></td>
+      					<td><font size="2">12500</font></td>
+      					<td><font size="2">将军</font></td>
+   					</tr>
+
+           			<tr>
+           				<td bgcolor="#8696a7"><font size="2">部</font></td>
+      					<td><font size="2">500</font></td>
+      					<td><font size="2">将军</font></td>                		
+           			</tr>
+
+           			<tr>
+           				<td bgcolor="#e0cdcf"><font size="2">曲</font></td>
+      					<td><font size="2">300</font></td>
+      					<td><font size="2">曲长</font></td>    
+           			</tr>
+
+           			<tr>
+           				<td bgcolor="#8696a7"><font size="2">伍</font></td>
+      					<td><font size="2">50</font></td>
+      					<td><font size="2">伍长</font></td>    
+           			</tr>
+
+           			<tr>
+           				<td bgcolor="#e0cdcf"><font size="2">什</font></td>
+      					<td><font size="2">10</font></td>
+      					<td><font size="2">什长</font></td>    
+           			</tr>
+			 </tbody>
+		</table>
+	</body>
+</html>
