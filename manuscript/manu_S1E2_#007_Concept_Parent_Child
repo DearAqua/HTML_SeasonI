@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+	<head>
+		<title>#007_Concept_Parent_Child</title>
+		<meta charset="utf-8" />
+	</head>
+
+	<body>
+		<h3> 
+			What is the 
+			<span>Relationships</span>
+			 between the parent and child 
+		</h3>
+
+		<p> 
+			首先解释 <strong>parent父代</strong> 和 <strong>child子代</strong> 的关系 
+		</p>
+
+		<dl>
+			<dt> 标签/元素 html </dt>
+			<dd> 任何在 html 标签以内的元素，都被称为 html 的 子代 ，例如</dd>
+			<dd> ——head 元素是 html 的 子代 </dd>
+			<dd> ——body 元素是 html 的 子代 </dd>
+
+			<dt> 标签/元素 body </dt>
+			<dd> 任何在 body 标签以内的元素，都被称为 body 的 子代，例如当前这个页面</dd>
+			<dd> h3 标签/元素是 body 的一个 子代 </dd>
+
+			<dt> 父子代元素 家族树 </dt>
+			<dd> body 是 html 的 子代 —— html 是 body 的 父代 </dd>
+			<dd> h3 是 body 的 子代 —— body 是 h3 的 父代 </dd>
+			<dd> span 是 h3 的 子代 —— h3 是 span 的 父代 </dd>
+		</dl>
+
+		<hr />
+
+		<p> 
+			那么上面那个 span 和 body 是什么关系呢？ <br />
+			span 和 html 又是什么关系呢？ <br />
+			这里就要引入一个 <strong>descendant后代</strong> 的概念
+		</p>
+
+		<dl>
+			<dt> 加入后代元素 家族树 </dt>
+			<dd> body 是 html 的 子代 </dd>
+			<dd> h3 是 body 的 子代 </dd>
+			<dd> span 是 h3 的 子代 </dd>
+			<dd> span 是 body 的 后代 </dd>
+			<dd> span 是 html 的 后代 </dd>
+			<dd> html 是 span 的 祖先 </dd>
+
+			<dt> 接上一个家族树 </dt>
+			<dd> body 是 html 的 子代 </dd>
+			<dd> p 是 body 的 子代 </dd>
+			<dd> strong 是 p 的 子代 </dd>
+			<dd> strong 是 body 的 后代 </dd>
+			<dd> strong 是 html 的 后代 </dd>
+			<dd> html 是 strong 的 祖先Ancestor </dd>
+		</dl>
+
+		<p> 
+			但是注意，strong 和 span 没有关系，虽然他们都是body的后代<br />
+			和人类社会不同，超出html太多代会失去联系。（除了特殊应用)
+		</p>
+
+		<hr />
+
+		<p> 
+			那么上面那个 h3 和 p 是什么关系呢？ <br />
+			这里又有一个新概念 <strong>sibling兄弟/姐妹</strong> 的概念
+		</p>
+
+		<ul>
+			<li> h3 是 p 的 兄弟元素 </li>
+			<li> h3 是 dl 的 兄弟元素 </li>
+			<li> h3 是 ul 的 兄弟元素 </li>
+		</ul>
+
+		<hr />
+
+		<p> 
+			可能你在想，这跟我有什么关系呢？ <br />
+			当然，现在希望你能掌握的，是元素之间的关系 <br />
+			这将在之后运用到类似JavaScript的时候起到作用（当然不是现在) <br />
+		</p>
+
+		<ul>
+			<p> 所以，现在需要掌握的是 </p>
+			<li> 正确分辨、认知元素之间的关系 </li>
+			<li> 正确的将元素，按照关系，编写好代码 </li>
+		</ul>
+	</body>
+</html>
