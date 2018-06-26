@@ -28,10 +28,8 @@
 		<h2>常用的声明</h2>
 		<ul>
 			<li>[!doctype html]——HTML 5</li>
-			<li>[!DOCTYPE HTML PUBLIC "-//...//DTD HTML 4.01 Transitional//EN"
-"http://www....../TR/html4/loose.dtd"]——HTML 4.01</li>
-			<li>[!DOCTYPE html PUBLIC "-//...//DTD XHTML 1.0 Transitional//EN"
-"http://www....../TR/xhtml1/DTD/xhtml1-transitional.dtd"]——XHTML 1.0</li>
+			<li>[!DOCTYPE HTML PUBLIC "-//...//DTD HTML 4.01 Transitional//EN""http://www....../TR/html4/loose.dtd"]——HTML 4.01</li>
+			<li>[!DOCTYPE html PUBLIC "-//...//DTD XHTML 1.0 Transitional//EN""http://www....../TR/xhtml1/DTD/xhtml1-transitional.dtd"]——XHTML 1.0</li>
 		</ul>
 		<p> 不过我相信，大多数人是不想用 HTML 5 以外的声明的XD </p>
 
