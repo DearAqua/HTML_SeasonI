@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+	<head>
+		<title>#009_Concept_Attribute</title>
+		<meta charset="utf-8" />
+	</head>
+
+	<body>
+		<body bgcolor="#c1cbd7">
+		<h2>HTML 属性含义</h2>
+		<p> 
+			HTML 标签可以拥有<strong>属性</strong>。属性提供了有关 HTML 元素的<strong>更多的信息</strong>。<br />
+			属性总是以名称/值对的形式出现，比如：<strong>name="value"</strong>。<br />
+			属性总是在 HTML 元素的<strong>开始标签</strong>中规定。 <br />
+		</p>
+
+		<hr />
+
+		<h2>HTML 属性实例</h2>
+		<h3>HTML 链接</h3>
+		<p> HTMl链接由 a 标签定义，链接地址在 href 属性中指定，打开方式在 blank 属性中指定 </p>
+		<a href="http://www.baidu.com" target="blank">This is a example link</a>
+
+		<h3>HTML 标题</h3>
+		<p> HTML标题由 h1~h6 标签定义，标题对齐方式在 aligh 属性中指定 </p>
+		<h1 align="center">This is a example heading</h1>
+
+		<h3>HTML 主体</h3>
+		<p> HTML主体由 body 标签定义，主体背景颜色在 bgcolor 属性中指定 </p>
+		<p> 这个 body 标签里面已经做好了 </p>
+
+		<h3>HTML 表格</h3>
+		<p> HTML 表格由 table 标签定义，行由 tr 定义，格由 th 定义 </p>
+
+		<ul>
+			<li>表格边框在 border 属性中指定</li>
+			<li>表格风格在 style 属性中指定</li>
+			<li>表单元格背景颜色在 bgcolor 属性中指定</li>
+			<li>etc.</li>
+		</ul>
+
+		<table border="1">
+			<tbody>
+				<tr>
+					<th bgcolor="#dfd7d7" style="width:33%;"><font size="2">Opening tag</font></th>
+					<th style="width:33%;"><font size="2">Contents</font></th>
+					<th style="width:33%;"><font size="2">Closing tag</font></th> 
+				</tr>
+
+				<tr>
+					<td style="width:33%;">a href</td>
+					<td style="width:33%;">link</td>
+					<td style="width:33%;">/a</td> 
+				</tr>
+
+				<tr>
+					<td style="width:33%;">p /</td>
+					<td style="width:33%;">paragraph</td>
+					<td style="width:33%;">/p</td> 
+				</tr>
+
+				<tr>
+					<td style="width:33%;">br /</td>
+					<td style="width:33%;">blank</td>
+					<td style="width:33%;">blank</td> 
+				</tr>
+			</tbody>
+		</table>
+
+		<hr />
+
+		<h2>HTML 需要养成的习惯</h2>
+
+		<ul>
+			<li>按照W3C万维网联盟在其 HTML 4 推荐标准中，推荐<strong>小写</strong>的属性/属性值</li>
+			<li>属性值应该始终包括在引号内（属性值本身带双引号，则引用单引号）</li>
+		</ul>
+
+		<hr />
+
+		<h2>HTML 属性参考手册</h2>
+
+		<table border="1">
+			<tbody>
+				<tr>
+					<th bgcolor="#656565"><font size="2"><strong>属性</strong></font></th>
+					<th bgcolor="#656565"><font size="2"><strong>值</strong></font></th>
+					<th bgcolor="#656565"><font size="2"><strong>描述</strong></font></th>
+				</tr>
+
+				<tr>
+					<td bgcolor="#ececea"><font size="2">class</font></td>
+					<td bgcolor="#ececea"><font size="2"><em>classname</em></font></td>
+					<td bgcolor="#ececea"><font size="2">规定元素的类名</font></td>
+				</tr>
+
+				<tr>
+					<td bgcolor="#ececea"><font size="2">id</font></td>
+					<td bgcolor="#ececea"><font size="2"><em>id</em></font></td>
+					<td bgcolor="#ececea"><font size="2">规定元素的唯一id</font></td>
+				</tr>
+
+				<tr>
+					<td bgcolor="#ececea"><font size="2">style</font></td>
+					<td bgcolor="#ececea"><font size="2"><em>inline style_definition</em></font></td>
+					<td bgcolor="#ececea"><font size="2">规定元素的行内样式</font></td>
+				</tr>
+
+				<tr>
+					<td bgcolor="#ececea"><font size="2">title</font></td>
+					<td bgcolor="#ececea"><font size="2"><em>text</em></font></td>
+					<td bgcolor="#ececea"><font size="2">规定元素的额外信息</font></td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
