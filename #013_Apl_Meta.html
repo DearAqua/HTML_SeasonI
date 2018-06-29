@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+	<head>
+		<title>#013_Apl_Meta</title>
+
+		<meta name="description" content="Meta examples" />
+		<meta name="keywords" content="HTML,meta" />
+		<meta name="author" content="Viceroy Vivi" />
+		<meta name="revised" content="Vivi,06/27/18" />
+		<meta name="generator" content="Sublime Text" />
+		<meta name="others" content="......" />
+		<meta charset="utf-8" />
+
+		<style type="text/css">
+			body {background-color:#bfb7c3;}
+			h1 {color:#2d254e;}
+			h2 {color:#615a69;}
+			h3 {color:#615a69;}
+			p {color:#0c0f1e;}
+			a {color:#2d254e;}
+		</style>
+	</head>
+
+	<body>
+		<h1> HTML meta 标签 </h1>
+		
+		<hr />
+
+		<h2> 什么是meta？ </h2>
+		<p>
+			[meta]元素可以提供有关页面的元信息，比如关键词、页面描述等<br />
+			[meta]标签位于文档的头部，不用包含任何内容，只修改 meta 的属性。<br />
+		</p>
+
+		<hr />
+
+		<h2> 有哪些属性可以选？ </h2>
+		<table border="1">
+			<tbody>
+				<tr>
+					<th bgcolor="#656565"><font size="2"><b>类型</b></font></th>
+					<th bgcolor="#656565"><font size="2"><b>项目</b></font></th>
+					<th bgcolor="#656565"><font size="2"><b>描述</b></font></th>
+				</tr>
+
+				<tr>
+					<td bgcolor="#ececea"><font size="2">content</font></td>
+					<td bgcolor="#ececea"><font size="2">content</font></td>
+					<td bgcolor="#ececea">
+						<font size="2">
+							大部分 meta 里面都要加入这个属性<br />
+							以此来描述前属性的值
+						</font>
+					</td>
+				</tr>
+
+				<tr>
+					<td bgcolor="#ececea"><font size="2">http-equiv</font></td>
+					<td bgcolor="#ececea">
+						<font size="2">						
+							content-type<br />
+							expires<br />
+							refresh<br />
+							set-cookie
+						</font>
+					</td>
+					<td bgcolor="#ececea"><font size="2">关联 <b>HTTP</b> 的属性</font></td>
+				</tr>
+
+				<tr>
+					<td bgcolor="#ececea"><font size="2">name</font></td>
+					<td bgcolor="#ececea">
+						<font size="2">						
+							author<br />
+							description<br />
+							keywords<br />
+							generator<br />
+							revised<br />
+							others
+						</font>
+					</td>
+					<td bgcolor="#ececea"><font size="2">关联 <b>名称</b> 的属性</font></td>
+				</tr>
+
+				<tr>
+					<td bgcolor="#ececea"><font size="2">scheme</font></td>
+					<td bgcolor="#ececea"><font size="2">(这一个属性在本系列教程不学习)</font></td>
+					<td bgcolor="#ececea"><font size="2">关联 翻译 的属性</font></td>
+				</tr>
+
+			</tbody>
+		</table>
+
+		<hr />
+
+		<h2> name 属性实例 </h2>
+		<ul>
+			<li>description ；添加了一个 页面的描述</li>
+			<li>keywords ；添加了一个 页面的关键词 </li>
+			<li>author ；添加了一个  页面的作者</li>
+			<li>revised ；添加了一个 版本修改记录 </li>
+			<li>generator ；添加了一个 编辑器的信息 </li>
+			<li>others ；添加了一个 其他内容补充/或备注</li>
+		</ul>
+
+		<hr />
+
+		<h2> http-equiv 属性实例 </h2>
+		<p> 这个属性会知识服务器在发送实际的文档之前，现在要传送给浏览器的 mime 文档头部包含的值 </p>
+		<p> 这个内容需要在后面的项目实践中使用 </p>
+
+		<hr />
+
+		<h2> 注意事项 </h2>
+		<p> 在 HTML 中， meta 标签没有结束标签 </p>
+		<p> 然而在 XHTML 中， meta 标签必须被正确地关闭 </p>
+		<p> 所以，我在教程中使用 meta 标签时，都同一按照空元素的关闭标签方式对 meta 进行关闭 </p>
+
+	</body>
+</html>
