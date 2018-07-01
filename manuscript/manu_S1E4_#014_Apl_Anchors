@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<title>#014_Apl_Anchors</title>
+
+		<meta name="description" content="HTML anchor using" />
+		<meta name="keywords" content="HTML,anchor" />
+		<meta name="author" content="Viceroy Vivi" />
+		<meta name="revised" content="Vivi,06/30/18" />
+		<meta name="generator" content="Sublime Text" />
+		
+		<meta charset="utf-8" />
+
+		<style type="text/css">
+			body {background-color:#bfb7c3;}
+			h1 {color:#2d254e;}
+			h2 {color:#615a69;}
+			h3 {color:#615a69;}
+			p {color:#0c0f1e;}
+			a {color:#2d254e;}
+		</style>
+	</head>
+
+	<body>
+		<a name="beginning" />
+
+		<h1> HTML anchors 标签 </h1>
+
+		<hr />
+
+		<h2> anchors 标签可以用来做什么？ </h2>
+		<p>
+			我们通过使用 anchors 标签在 HTML 中创建链接。<br />
+			超链接可以是一个字，一个词，或者一组词，也可以是一幅图像。<br />
+			可以点击这些内容来跳转到新的文档或者当前文档中的某个部分。<br />
+		</p>
+
+		<hr />
+
+		<h2> 超链接运用实例 </h2>
+
+		<h3> 用超链接让当前页面跳转到别的网页 </h3>
+		<p>
+			<b>语法：[a href="跳转目标地址"]链接文字段[/a</b>
+			<br />
+			注意，外部网页必须要增加http:开头
+			<br />
+		</p>
+
+		<p> fly me to the ... <br /></p>
+		<a href="https://baike.baidu.com/item/%E6%9C%88%E7%90%83/30767?fr=aladdin">Moon</a>
+		<br />
+		<a href="https://baike.baidu.com/item/%E6%B0%B4%E6%98%9F/135917">Mercury</a>
+		<br />
+
+		<h3> 用超链接，新建一个标签跳转到别的网页 </h3>
+		<p>
+			<b>语法：[a href="跳转目标地址" target="_blank"]链接文字段[/a]</b>
+			<br />
+			多增加的 target 属性的值为 _blank 时，点击这个链接的时候就可以新建一个浏览器标签来跳转新的网页。
+			<br />
+		</p>
+		<a href="https://baike.baidu.com/item/%E9%87%91%E6%98%9F/19410#viewPageContent" target="_blank">Venus</a>
+		<br />
+		<a href="https://baike.baidu.com/item/%E7%81%AB%E6%98%9F/5627" target="_blank">Mars</a>
+		<br />
+
+		<hr />
+
+		<h3> 链接锚 </h3>
+		<p>
+			<b>语法：[a name="船锚的名称" /]</b>
+			<br />
+			<b>语法：[a href="#船锚的名称"]链接文字段[/a]]</b>
+			<br />
+		</p>
+		<a href="#beginning">回到开头</a>
+		<br />
+
+	</body>
+</html>
