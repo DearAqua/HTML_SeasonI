@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+		<title>#015_Apl_Img</title>
+
+		<meta name="description" content="HTML anchor using" />
+		<meta name="keywords" content="HTML,anchor" />
+		<meta name="author" content="Viceroy Vivi" />
+		<meta name="revised" content="Vivi,06/30/18" />
+		<meta name="generator" content="Sublime Text" />
+
+		<meta charset="utf-8" />
+
+		<style type="text/css">
+			body {background-color:#d9cfcb;}
+			h1 {color:#533f43;}
+			h2 {color:#533f43;}
+			h3 {color:#533f43;}			
+			p {color:#9f6e56;}			
+			a {color:#588fb1;}
+		</style>
+	</head>
+
+	<body>
+		<a name="theTop" />
+
+		<h1> HTML img 标签 </h1>
+
+		<hr />
+
+		<h2> 如何使用 img 标签？ </h2>
+		<p> 在 HTML 中，图像由 < img > 标签定义，这个标签是一个空标签，和< br />、 < hr />一样，img 需要在开始标签上将这个元素关闭。 </p>
+    	<p> 要在页面上显示图像，你需要使用源属性 src (source)。源属性的值描述的时图像的 URL 地址。 </p>
+
+		<img src="The_Forest.jpg" alt="the forest"/>
+
+		<p> 还记得我们的项目文件夹嘛？把图片放入 img 文件夹中，便于管理。 </p>
+
+		<hr />
+
+		<h2> 图像无法显示怎么办？ </h2>
+		<p> 在浏览器无法载入图像时，替换文本属性告诉读者她们失去的信息。此时，浏览器将显示这个替代性的文本而不是图像。 <br />
+			为页面上的图像都加上替换文本属性是个好习惯，这样有助于更好的显示信息，并且对于那些使用纯文本浏览器的人来说是非常有用的。 </p>
+    	<p> 在这里，我们可以使用 img 元素 的 alt 属性，来为图像定义一小段预备的<b>可替换的文本</b> </p>
+
+    	<hr />
+
+    	<h2> 如何显示网络来源的图像？ </h2>
+		<p>  首先，我们可以在网页上右键图片，点击其中一个叫【复制图片地址】或者【复制图片URL】的选项<br />
+			 例如我下面展示的这一串 <br />
+			 https://upload-images.jianshu.io/upload_images/12293016-7ed917450fab7acc.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/621
+		</p>
+    	<p> 然后我们把这一串地址，塞进刚才 img 标签的 src 属性中去 </p>
+
+    	<img src="https://upload-images.jianshu.io/upload_images/12293016-7ed917450fab7acc.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/621" alt="the hack linking"/>	
+
+    	<p> 非常好，我们把上一个课程中展示的图片，用网络来源的方法显示出来了 </p>
+
+    	<hr />
+
+    	<h2> 注意事项 </h2>
+		<p>  但是要注意的时，不要轻易随意使用网络来源的图像<br />
+			 虽然我们可以通过这个方法从别的网页上摘抄图像到我们的网页上显示出来 <br />
+			 从而导致，我们将与图像的作者、或者被抄袭的网页所有方产生版权冲突 <br />
+			 这也就是网络上常说的盗链，这是一个非常坏的行为，所以尽量不要去做这种事 <br />
+		</p>
+		<p>
+			最好就是，得到图像作者的允许之后，将图片放到本地工程项目文件中使用。 <br />
+			这样更方便维护、也减少的版权冲突。
+		</p>
+
+	</body>
+</html>
