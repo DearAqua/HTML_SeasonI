@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+	<head>
+		<title>#016_Apl_Sytle</title>
+
+		<meta name="description" content="HTML style using" />
+		<meta name="keywords" content="HTML,anchor" />
+		<meta name="author" content="Viceroy Vivi" />
+		<meta name="revised" content="Vivi,06/30/18" />
+		<meta name="generator" content="Sublime Text" />
+
+		<meta charset="utf-8" />
+
+		<style type="text/css">
+			body {background-color:#d9cfcb;}
+			h1 {color:#533f43;}
+			h2 {color:#533f43;}
+			h3 {color:#533f43;}			
+			p {color:#9f6e56;}			
+			a {color:#588fb1;}
+		</style>
+
+	</head>
+
+	<body>
+		<a name="theTop" />
+
+
+		<h1> HTML Style 标签 </h1>
+
+		<hr />
+
+		<h2>在元素内部做样式</h2>
+
+		<p>我们可以在大部分的 HTML 元素中，加入一个 style 属性，加入这个属性之后，设置这个元素的样式。</p>
+		<p>这种方法可以高度自由的定制自己想要的样式。</p>
+
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+
+		<hr />
+
+
+		<p>我们通过 style 属性的 text-align 属性规定了元素中文本的水平对齐方式</p>
+		<p>font-family、color 以及 font-size 属性分别定义元素中文本的字体系列、颜色和字体尺寸</p>
+
+		<h2>注意事项</h2>
+
+		<p>
+			在 HTML 4 中，有若干的标签和属性是被废弃的。<br />
+			被废弃（Deprecated）的意思是在未来版本的 HTML 和 XHTML 中将不支持这些标签和属性。<br />
+			这里传达的信息很明确：请避免使用这些被废弃的标签和属性！
+		</p>
+
+		<ul>
+			<h3>以下标签都用 Style 替代：</h3>
+			<li>居中——center</li>
+			<li>字体——font></li>
+			<li>带删除线文本——s</li>
+			<li>带下划线文本——u</li>
+			<li>文本对齐方式——align</li>
+			<li>背景颜色——bgcolor</li>
+			<li>文本颜色——color</li>
+		</ul>
+
+		<p><em>以前我们做表格的时候，曾经用过 font 标签，还记得嘛？</em></p>
+
+		<hr />
+
+		<h2>使用内部样式表</h2>
+
+		<p>
+			当单个文件需要特别样式时，就可以使用内部样式表。<br />
+			你可以在 head 部分通过编辑一个<b>全局有效</b>的内部样式表<br />
+			记得删除元素内部的样式修改，除非你像保留它，作为特殊显示
+		</p>
+
+		<hr />
+		<br />
+
+		<a href="#theTop" style="color: black">回到顶端</a>
+	</body>
+</html>
