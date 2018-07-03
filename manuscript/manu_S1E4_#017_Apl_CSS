@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+	<head>
+		<title>#017_Apl_CSS</title>
+
+		<meta name="description" content="HTML CSS using" />
+		<meta name="keywords" content="HTML,anchor" />
+		<meta name="author" content="Viceroy Vivi" />
+		<meta name="revised" content="Vivi,07/02/18" />
+		<meta name="generator" content="Sublime Text" />
+
+		<meta charset="utf-8" />
+
+		<link rel="stylesheet" type="text/css" href="../../css/ql-css.css">
+
+		<!--
+			<style type="text/css">
+				body {background-color:#d9cfcb;}
+				h1 {color:#533f43;}
+				h2 {color:#533f43;}
+				h3 {color:#533f43;}			
+				p {color:#9f6e56;}			
+				a {color:#588fb1;}
+			</style>
+		-->	
+	</head>
+
+	<body>
+		<h1> HTML CSS 外部样式表</h1>
+
+		<hr />
+
+		<h2> 上集回顾 </h2>
+		<p> 
+			上一节课我们学习了如何该表 HTML 显示内容的样式，不过这些样式都是在 HTML 文档内部的， <br />
+			如果，我们有大量的页面需要按照这个样式表来对文档进行格式化， <br />
+			而且这个样式表规定的风格是十分完善的，是可以通用到所哟页面的，<br />
+			我们就需要用到外部样式表——层叠样式表CSS(<b>C</b>ascading <b>S</b>tyle <b>S</b>heets)
+		</p>
+
+		<h2> CSS有什么用 </h2>
+		<p>
+			HTML 通过样式定义如何显示 HTML 元素，样式通常存储在样式表中，CSS里面层叠了大量的样式表，<br />
+			把样式添加到 HTML 中，是为了解决内容与表现分离的问题，与此同时，外部样式表可以极大提高工作效率 <br />
+		</p>
+
+		<h2> CSS 文档怎么编写 </h2>
+		<p> 
+			css 文档就是内部样式表 content 内容值 的拆解 <br />
+			我们可以把原来内部样式表的内容值逐一拆解放入 css 中，另存为 .css 文件，放到项目对应文件夹，这样就能用了。
+		</p>
+
+		<h2> 同一个 HTML 元素被多个样式定义的时候 </h2>
+		<p> 一般而言，所有的样式会根据下面的规则层叠于一个新的虚拟样式表中，其中数字越大优先权越高。 </p>
+		<ol>
+			<li>浏览器缺省设置</li>
+			<li>外部样式表</li>
+			<li>内部样式表（位于 [head>] 标签内部）</li>
+			<li>内联样式（在 HTML 元素内部）</li>
+		</ol>
+	</body>
+</html>
