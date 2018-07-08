@@ -1,0 +1,69 @@
+.cities {
+	background-color:grey;
+	color:white;
+	margin:20px;
+	margin-bottom:0;
+	padding:20px;
+	font-family:Verdana, Geneva, sans-serif;
+} 
+
+.chen-wuguan {
+	background-color:grey;
+	color:white;
+	margin:20px;
+	margin-bottom:0;
+	padding:20px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+.chen-wenguan {
+	background-color:#9f6e56;
+	color:white;
+	margin:20px;
+	margin-bottom:0;
+	padding:20px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+.assignment {
+	width: 500px;
+	margin: auto;
+}
+
+span.red {
+	color:red;
+}
+
+body {
+	background-color: #d9cfcb;
+	font-family: sans-serif;
+}
+
+h1 {
+	color:#533f43;
+	font-weight: bold;
+}
+
+h2 {
+	color:#533f43;
+}
+
+h3 {
+	color:#533f43;
+}
+		
+p {
+	color:white;
+}
+
+a {
+	color:#588fb1;
+}
+
+blockquote {
+	border-width: 1px;
+	border-style: solid;
+	border-color: white;
+	text-align: center;
+	margin-left: 0;
+}
