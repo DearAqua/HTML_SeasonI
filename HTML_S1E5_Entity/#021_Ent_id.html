@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<title>#021_Ent_id</title>
+
+		<meta name="description" content="HTML id using" />
+		<meta name="keywords" content="HTML,id" />
+		<meta name="author" content="Viceroy Vivi" />
+
+		<meta charset="utf-8" />
+
+		<style>
+			#emphasis {
+				color:red;
+			}
+
+			.normal {
+				color:blue;
+			}
+
+			#select li:nth-child(4) {
+				color:grey;
+			}
+			ul:first-of-type li:nth-child(1) {
+				color:green;
+			}
+		</style>
+
+		<link rel="stylesheet" type="text/css" href="../../css/ql-css.css"> 
+	</head>
+
+	<body>
+		<ul id="select">
+			<li class="normal">今天</li>
+			<li class="normal">你</li>
+			<li id="emphasis">签到</li>
+			<li class="normal">了吗？</li>
+		</ul>
+
+		<ul>
+			<li class="normal">今天</li>
+			<li class="normal">你</li>
+			<li id="emphasis">签到</li>
+			<li class="normal">了吗？</li>
+		</ul>
+	</body>
+</html>
