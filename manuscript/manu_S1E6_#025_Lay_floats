@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+		<title>#025_Lay_floats</title>
+
+		<meta name="description" content="Learn about floats" />
+		<meta name="keywords" content="HTML,float" />
+		<meta name="author" content="Viceroy Vivi" />
+
+		<meta charset="utf-8" />
+
+		<link rel="stylesheet" type="text/css" href="../../css/layout-css.css"> 
+
+		<style>
+		.wrap {
+			width : 700px;
+			margin: auto;
+			background-color:green;
+			overflow: hidden;
+		}
+
+		.content {
+			background-color:red;
+			float:left;
+			width : 450px;
+			height : 300px;
+		}
+
+		aside {
+			background-color:brown;
+			height : 300px;
+			float:left;
+		}
+
+		aside ul {
+			padding-left: 15px;
+			list-style: none;
+		}
+
+	</style>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<h1>My Second Website</h1>
+
+			<div class="content">
+				<h2> 这里是主要内容的标题 </h2>
+				<p>HTML5有个元素叫做 aside </p>
+			</div>
+
+			<aside>
+				<h2> 这里是侧翼内容 </h2>
+				<ul>
+					<li>
+						<a href="../HTML_S1E5_Entity/#019_ent_div.html">#019_-div 教程</a>
+					</li>
+					<li>
+						<a href="../HTML_S1E5_Entity/#020_Ent_class.html">#020-class 教程</a>
+					</li>
+					<li>
+						<a href="../HTML_S1E5_Entity/#021_Ent_id.html">#021-id 教程</a>
+					</li>
+				</ul>
+			</aside>
+
+		</div>
+
+	</body>
+</html>
