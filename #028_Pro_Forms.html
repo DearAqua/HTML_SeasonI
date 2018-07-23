@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+
+		<title>#028_Pro_Forms</title>
+
+		<meta name="description" content="Learn about Forms" />
+		<meta name="keywords" content="HTML,Forms" />
+		<meta name="author" content="Viceroy Vivi" />
+
+		<style>
+			a {
+				text-decoration : none;
+				color:#588fb1;
+			}
+
+			a:hover {
+				color:red;
+			}
+
+			form li {
+				list-style : none;
+				margin-bottom : 20px;
+			}
+
+			form ul {
+				padding-left: 0;
+			}
+
+			label {
+				display : block;
+				cursor: pointer;
+				color:#588fb1;
+				font-family:sans-serif;
+				padding-bottom: 8px;
+			}
+
+			textarea {
+				width: 400px;
+				height: 200px;
+			}
+		</style>
+	</head>
+
+	<body>
+	<!--	<form action="发送form数据到你的后端.php" method="get">	-->
+		<form action="" method="get" />
+			<ul>
+				<li>
+					<label for="var-name">创建角色名</label>
+					<br />
+					<input id="var-name" name="var-name" />
+				</li>
+
+				<li>
+					<label for="var-gender">性别</label>
+					<input type="radio" id="var-gender" name="var-gender" value="male" checked>男
+					<br />
+					<input type="radio" id="var-gender" name="var-gender" value="female">女
+				</li>
+
+				<li>
+					<label for="abl-skill">特技</label>
+					<input type="checkbox" id="abl-skill" name="S-1-1"  />口才
+					<input type="checkbox" id="abl-skill" name="S-1-2"  />驳倒
+					<input type="checkbox" id="abl-skill" name="S-2-1"  />鬼谋
+				</li>
+
+				<li>
+					<label for="var-comments">角色列传</label>
+					<br />
+					<textarea id="var-comments" name="var-comments"></textarea>
+	 			</li>
+
+	 			<li>
+					<a href="#">
+						您已阅读隐私政策
+					</a>
+					<input type="checkbox" id="pol-pri" name="pol-pri"  />
+				</li>
+
+	 			<li>
+	 				<input type="submit" value="点击就送" />
+	 			</li>
+	 		</ul>
+		</form>
+
+	</body>
+</html>
